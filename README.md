@@ -47,26 +47,6 @@ Kiva-microfinance-Dashboard/
 
 > **Note:** The raw dataset (`kiva_loans.csv`) and cleaned output (`kiva_loans_clean.csv`) are not included due to file size. Download the raw data from Kaggle using the link above.
 
----
-
-## Setup & Reproduction
-
-### 1. Download the dataset
-Go to [Kaggle — Kiva Crowdfunding](https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding) and download `kiva_loans.csv`. Place it in the same directory as the notebook.
-
-### 2. Run the notebook
-```bash
-pip install pandas
-jupyter notebook Kiva_Loans_Data_Prep.ipynb
-```
-Run all cells. This generates `kiva_loans_clean.csv`.
-
-### 3. Open in Power BI
-- Open Power BI Desktop
-- **Home → Get Data → Text/CSV** → load `kiva_loans_clean.csv`
-- Recreate the DAX measures below and build the 3 dashboard pages
-
----
 
 ## DAX Measures
 
